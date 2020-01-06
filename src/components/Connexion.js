@@ -7,7 +7,6 @@ class Connexion extends Component {
         goTochat: false
 
     }
-
     handleChange = event => {
         const pseudo = event.target.value
         this.setState({ pseudo })  
@@ -20,7 +19,7 @@ class Connexion extends Component {
     render() {
         if (this.state.goTochat) {
             return <Redirect push to={`pseudo/${this.state.pseudo}`}> </Redirect>
-        }
+        } 
 
         return (
             <div className='connexionBox'>
