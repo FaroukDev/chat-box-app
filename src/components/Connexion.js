@@ -10,7 +10,7 @@ class Connexion extends Component {
 
     handleChange = event => {
         const pseudo = event.target.value
-        this.setState({ pseudo }) 
+        this.setState({ pseudo })  
     }
 
     handleSubmit = event => {
