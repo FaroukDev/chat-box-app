@@ -71,7 +71,7 @@ class App extends Component {
     ))
     return (
       <div className='box'>
-        <h1>Le Tchat de Addi le Gréviste</h1>
+       
         <div>
           <div className="messages" ref={this.messageRef}>
             <TransitionGroup className='message'>
